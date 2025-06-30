@@ -28,3 +28,22 @@ body{
     border: 2px white solid;
     border-radius: 10px;
 }
+
+#about-me{
+    background-color: rgba(245, 245, 220, 0.54);
+    display: flex;
+    padding: 30px 20px;
+    justify-content: space-between;
+}
+#about-me .description{
+    max-width: 70%;
+}
+#about-me .description h2{
+    margin-bottom: 15px;
+}
+
+#about-me .profile-image{
+    max-width: 30%;
+    padding: 10px;
+    border: 2px solid black;
+}
